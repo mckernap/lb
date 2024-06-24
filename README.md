@@ -72,6 +72,12 @@ The load balancer can be configured to use following backend web service selecti
 
 ## Running the Load Balancer
 
+Here is a command line for running the load balancer:
+
+```console
+    lb <--health-check-delay 5000>
+```
+
 As suggested in the coding challenge:
 * create several instances of the python web service (command provided in Step 2).
 * use Curl as a client request, I had to use something like this:
